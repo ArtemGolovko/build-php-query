@@ -1,0 +1,43 @@
+{
+  "name": "build-php-query",
+  "version": "1.0.0",
+  "description": "Generate PHP like URL-encoded query string",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "keywords": [
+    "query",
+    "searchQuery"
+  ],
+  "author": {
+    "name": "Artem Golovko",
+    "email": "artem.golovko2008@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArtemGolovko/build-php-query.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ArtemGolovko/build-php-query/issues"
+  },
+  "homepage": "https://github.com/ArtemGolovko/build-php-query#readme",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jest": "^25.7.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-standard": "^5.0.0",
+    "jest": "^27.4.4",
+    "prettier": "^2.5.1"
+  }
+}

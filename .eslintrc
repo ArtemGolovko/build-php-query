@@ -1,0 +1,17 @@
+{
+  "extends": [
+    "standard",
+    "plugin:prettier/recommended"
+  ],
+  "env": {
+    "node": true,
+    "jest": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 2015
+  },
+  "rules": {
+    "space-before-function-paren": 0,
+    "import/export": 0
+  }
+}
