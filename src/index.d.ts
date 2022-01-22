@@ -1,1 +1,1 @@
-export function buildPHPQuery(obj: object): string;
+export default function buildPHPQuery(obj: object): string;

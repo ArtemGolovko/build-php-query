@@ -1,6 +1,6 @@
 {
   "name": "build-php-query",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Generate PHP like URL-encoded query string",
   "main": "src/index.js",
   "types": "src/index.d.ts",
